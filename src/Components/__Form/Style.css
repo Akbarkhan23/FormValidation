@@ -1,0 +1,58 @@
+form {
+    background-color: white;
+    width: clamp(500px , 350px , 600px);
+    font-family: poppins;
+    box-shadow: 4px 0px 8px 4px #38547b96;
+}
+
+form .title {
+    background-color: #38547b;
+    margin-top: 0;
+    text-align: center;
+    padding-block: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.username,
+.email {
+    padding: 12px;
+}
+
+.username input,
+.email input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a8abc0;
+    padding-block: 4px;
+}
+
+.username label,
+.email label {
+    color: #a8abc0;
+    text-transform: capitalize;
+}
+
+.btn {
+    width: 100%;
+    background-color: #38547b;
+    color: white;
+    border: none;
+    outline: none;
+    padding-block: 12px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.btn:hover {
+    background-color: #24364e;
+}
